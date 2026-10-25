@@ -1,0 +1,17 @@
+{
+  "name": "tripai-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TripAI itinerary API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
